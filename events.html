@@ -5,46 +5,166 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Botanical Bean Roastery Events Page</title>
-    <link rel="stylesheet" href="css/main.css"/>
-
+    <link rel="stylesheet" href="botanical.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <!-- Header with navigation -->
-    <div class="header">
-     <header>
-      <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-      <h2>Botanical Bean Roastery</h2>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="events.html">Events</a>
-        <a href="menu.html">Menu</a>
-        <a href="citations.html">Citations</a>
-        <a href="about.html">About Us</a>
-      </nav>
-     </header>
-    </div>
+    <header>
+      <div class="header">
+        <div class="header-logo">
+          <a href="index.html">
+            <!-- SVG/Image Overlay -->
+            <img src="images/noun-coffee-leaf-6077492.png" alt="Business Logo" width="59" height="45">
+            <svg><circle cx="40" cy="40" r="30" fill="coral"/></svg>
+          </a>
+          <h2>Botanical Bean Roastery</h2>
+        </div>
+        <nav class="header-nav">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About Us</a>
+          <a href="citations.html">Citations</a>
+        </nav>
+      </div>
+    </header>
     
-    <body>
-      
 
-    </body>
+    <!-- Body -->
+    <div class="events">
+
+      <!-- Upcoming Events Section -->
+      <div class="events-column">
+        <div class="events-column-item">
+          <h2 class="upcoming-events-title">Upcoming Events</h2>
+          <div class="upcoming-events">
+            <div class="upcoming-events-column">
+              <div class="upcoming-events-column-item">
+                <p class="event-date">May 10th, 2026</p>
+                <p class="event-name">Botanical Bash</p>
+                <p class="event-details">In direct collaboration with the botanical garden, we are hosting a gathering at the Botanical Bean Roastery in celebration of our partnerships one year anniversary.</p>
+              </div>
+              <div class="upcoming-events-column-item">
+                <p class="event-date">May 28th, 2026</p>
+                <p class="event-name">Comedy Night</p>
+                <p class="event-details">Join us for a night of laughs at the Botanical Bean Roastery's first ever comedy night!</p>
+              </div>
+            </div> 
+            <div class="upcoming-events-column">
+              <div class="upcoming-events-column-item">
+                <p class="event-date">May 14th, 2026</p>
+                <p class="event-name">Makers Market</p>
+                <p class="event-details">Local artists and craftsmakers are welcome to come and display their handmade goods. There will also be a workshop for those who want to try their hand at craftsmaking.</p>
+              </div>
+              <div class="upcoming-events-column-item">
+                <p class="event-date">June 14th, 2026</p>
+                <p class="event-name">Bike Rides</p>
+                <p class="event-details">In partnership with the botanical garden, we will be providing guided bike rides around the local trails.</p>
+              </div>
+            </div>
+            <div class="upcoming-events-column">
+              <div class="upcoming-events-column-item">
+                <p class="event-date">May 21st, 2026</p>
+                <p class="event-name">Tree Planting</p>
+                <p class="event-details">To help preserve and regrow the local environment, we will be planting trees along the south edge of the botanical garden.</p>
+              </div>
+              <div class="upcoming-events-column-item">
+                <p class="event-date">July 1st, 2026</p>
+                <p class="event-name">Book Club</p>
+                <p class="event-details">For the book enthusiasts of our community, we will be hosting a book club to discuss your favorite books. We will also have several local authors come in to discuss their books. </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Schedule Event Section -->
+      <div class="events-column">
+        <div class="events-column-item">
+            <h2 class="schedule-event-title">Want to schedule an event?</h2>
+        </div>
+
+        <!-- Contact Information Section -->
+        <div class="events-column-item">
+          <div class="contact-information">
+            <div class="contact-information-row">
+              <div class="contact-information-item">
+                <h3>Our Location</h3>
+                <p> <img src="images/Location.png" alt="Location Icon" width="24" height="24"> 1842 Schlegel, Webster, NY 14580</p>
+              </div>
+              <div class="contact-information-item">
+                <h3>Phone Number</h3>
+                <p> <img src="images/Phone.png" alt="Phone Icon" width="24" height="24"> (555)-555-5555</p>
+              </div>
+            </div>
+            <div class="contact-information-row">
+              <div class="contact-information-item">
+                <h3>Email Address</h3>
+                <p> <img src="images/Email.png" alt="Email Icon" width="24" height="24"> contact@botanicalbean.com</p>
+              </div>
+              <div class="contact-information-item">
+                <h3>Hours</h3>
+                <p>
+                  <img src="images/Hours.png" alt="Hours Icon" width="24" height="24"> Monday - Friday: 12:00 PM - 2:30 PM & 7:00 PM - 10:30 PM<br>
+                  <img src="images/Hours.png" alt="Hours Icon" width="24" height="24"> Saturday: 7:00 PM - 11:00 PM
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="events-column-item">
+
+          <!-- Contact Us Section -->
+          <div class="contact-us">
+            <h2>Contact Us</h2>
+
+            <!-- Contact Us Form -->
+            <form class="contact-us-contact-form" action="#" method="POST">
+              <div class="contact-us-form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input id="subject" name="subject" class="form-input" placeholder=" The subject" type="text" />
+              </div>
+              <div class="contact-us-form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" class="form-input" placeholder=" Your email" type="email" />
+              </div>
+              <div class="contact-us-form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-textarea" id="message" name="message" placeholder="Your message"></textarea>
+              </div>
+              <button class="contact-us-form-submit" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
     <!-- Footer -->
     <footer>
       <div class="footer">
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="64.97" height="51.49">
-        <h3>Botanical Bean Roastery</h3>
-        <nav>
+        <div class="footer-logo">
+          <a href="index.html"><img src="images/noun-coffee-leaf-6077492.png" alt="Business Logo" width="60" height="45"></a>
+          <h3>Botanical Bean Roastery</h3>
+        </div>
+        <nav class="footer-nav">
           <a href="index.html">Home</a>
           <a href="events.html">Events</a>
           <a href="menu.html">Menu</a>
-          <a href="citations.html">Citations</a>
           <a href="about.html">About Us</a>
+          <a href="citations.html">Citations</a>
+        </nav>
+        <nav class="footer-social">
+          <a href="https://www.facebook.com/" target="_blank"><img src="images/Facebook.png" alt="Facebook Logo" width="36" height="36"></a>
+          <a href="https://x.com/home" target="_blank"><img src="images/Twitter.png" alt="Twitter Logo" width="36" height="36"></a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/Instagram.png" alt="Instagram Logo" width="36" height="36"></a>
         </nav>
       </div>
     </footer>
-
-    <script src="js/scripts.js"></script>
   </body>
 </html>

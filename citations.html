@@ -5,27 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Botanical Bean Roastery Citations Page</title>
-    <link rel="stylesheet" href="css/main.css"/>
+
+    <!-- Heading Style -->
+    <style>
+      h2 strong {font-family: "Cormorant Garamond", serif;font-style: normal;font-weight: 600;font-size: 60px;}
+      h3 {font-family: "Lora", serif;font-style: normal;font-weight: 600;font-size: 20px;}
+    </style>
+    <link rel="stylesheet" href="botanical.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <!-- Header with navigation -->
-    <div class="header">
-     <header>
-      <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-      <h2>Botanical Bean Roastery</h2>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="events.html">Events</a>
-        <a href="menu.html">Menu</a>
-        <a href="citations.html">Citations</a>
-        <a href="about.html">About Us</a>
-      </nav>
-     </header>
-    </div>
+    <header>
+      <div class="header">
+        <div class="header-logo">
+          <a href="index.html">
+            <!-- SVG/Image Overlay -->
+            <img src="images/noun-coffee-leaf-6077492.png" alt="Business Logo" width="59" height="45">
+            <svg><circle cx="40" cy="40" r="30" fill="coral"/></svg>
+          </a>
+          <h2>Botanical Bean Roastery</h2>
+        </div>
+        <nav class="header-nav">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About Us</a>
+          <a href="citations.html">Citations</a>
+        </nav>
+      </div>
+    </header>
      
     <body>
-      <h2>Citations</h2>
+      <!-- Strong Heading -->
+      <h2><strong>Citations</strong></h2>
 
       <h3>Business Logo</h3>
       <p>
@@ -81,23 +97,32 @@
         Fed and Fit. (2022). How to make cold brew [Photograph]. <a href="https://fedandfit.com/wp-content/uploads/2022/02/230322_how-to-make-cold-brew-38.jpg">https://fedandfit.com/wp-content/uploads/2022/02/230322_how-to-make-cold-brew-38.jpg</a>
       </p>
 
+      <h3>Hacienda Iluminada About Us Image</h3>
+      <p>
+        Hacienda Iluminada. (n.d.). [Coffee tour at Hacienda Iluminada] [Photograph]. <a href="https://www.haciendailuminada.com/coffee-tours">https://www.haciendailuminada.com/coffee-tours</a>
+      </p>
     </body>
 
     <!-- Footer -->
     <footer>
       <div class="footer">
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="64.97" height="51.49">
-        <h3>Botanical Bean Roastery</h3>
-        <nav>
+        <div class="footer-logo">
+          <a href="index.html"><img src="images/noun-coffee-leaf-6077492.png" alt="Business Logo" width="60" height="45"></a>
+          <h3>Botanical Bean Roastery</h3>
+        </div>
+        <nav class="footer-nav">
           <a href="index.html">Home</a>
           <a href="events.html">Events</a>
           <a href="menu.html">Menu</a>
-          <a href="citations.html">Citations</a>
           <a href="about.html">About Us</a>
+          <a href="citations.html">Citations</a>
+        </nav>
+        <nav class="footer-social">
+          <a href="https://www.facebook.com/" target="_blank"><img src="images/Facebook.png" alt="Facebook Logo" width="36" height="36"></a>
+          <a href="https://x.com/home" target="_blank"><img src="images/Twitter.png" alt="Twitter Logo" width="36" height="36"></a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/Instagram.png" alt="Instagram Logo" width="36" height="36"></a>
         </nav>
       </div>
     </footer>
-    
-    <script src="js/scripts.js"></script>
   </body>
 </html>

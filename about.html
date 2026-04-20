@@ -5,60 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Botanical Bean Roastery About Page</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="botanical.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <!-- Header with navigation -->
-    <div class="header">
-     <header>
-      <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-      <h2>Botanical Bean Roastery</h2>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="events.html">Events</a>
-        <a href="menu.html">Menu</a>
-        <a href="citations.html">Citations</a>
-        <a href="about.html">About Us</a>
-      </nav>
-     </header>
-    </div>
-     
+    <header>
+      <div class="header">
+        <div class="header-logo">
+          <a href="index.html">
+            <!-- SVG/Image Overlay -->
+            <img src="images/noun-coffee-leaf-6077492.png" alt="Business Logo" width="59" height="45">
+            <svg><circle cx="40" cy="40" r="30" fill="coral"/></svg>
+          </a>
+          <h2>Botanical Bean Roastery</h2>
+        </div>
+        <nav class="header-nav">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About Us</a>
+          <a href="citations.html">Citations</a>
+        </nav>
+      </div>
+    </header>
+    
+    <!-- About Us Upper Section -->
     <body>
-      <div class="About Us Text Section">
-        <h2>Our Story</h2>
-        <p>Since its opening, our roastery has made a commitment to foster a community of environmentally minded people in collaboration with the Botanical Garden. To accomplish this, the roastery hosts monthly events to boost collaboration, some in collaboration with the Botanical Garden. We also believe </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. </p>
-
-        <h2>Our Mission</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. </p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. </p>
-
-        <h2>Our Partners</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim  veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea  commodo consequat. </p>
+      <div class="about-us-text-section">
+        <div class="about-us-our">
+          <h2>Our Story</h2>
+          <div class="about-us-text">
+            <p>Our roastery was founded on the idea of community collaboration and the environmentally conscious sourcing and brewing of coffee. To emphasize this, we chose to locate our roastery right next to a botanical garden, providing increased foot traffic and visitations to both of our organizations. </p>
+          </div>
+        </div>
+        <div class="about-us-our">
+          <h2>Our Mission</h2>
+          <div class="about-us-text">
+            <p>Since its opening, our roastery has made a commitment to foster a community of environmentally minded people in collaboration with the Botanical Garden. To accomplish this, the roastery hosts monthly events to boost collaboration, some in collaboration with the Botanical Garden. </p>
+          </div>
+        </div>
+        <div class="about-us-our">
+          <h2>Our Partners</h2>
+          <div class="about-us-text">
+            <p>We partner with Hacienda Iluminada, a family-owned coffee bean farm based in Maricao, Puerto Rico. They utilize a mixture of both traditional and modern growing techniques to provide high-quality coffee beans, with an emphasis on ecological and sustainable practices.</p>
+          </div>
+        </div>
       </div>
 
-      <div class="About Us Image Section">
-        <img src="noun-coffee-leaf-6077492.png" alt="About Us Image 1" width="573" height="436">
-        <img src="noun-coffee-leaf-6077492.png" alt="About Us Image 1" width="573" height="436">
+      <!-- About Us Lower Section -->
+      <div class="about-us-image-section">
+        <!-- Youtube video embed via iframe -->
+        <iframe src="https://www.youtube.com/embed/34MRWmbPZ1k" width="573" height="436"></iframe>
+        <img src="images/HaciendaIluminada.jpg" alt="Hacienda Iluminada" width="573" height="436" style="object-fit: cover;">
       </div>
     </body>
 
     <!-- Footer -->
     <footer>
       <div class="footer">
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="64.97" height="51.49">
-        <h3>Botanical Bean Roastery</h3>
-        <nav>
+        <div class="footer-logo">
+          <a href="index.html"><img src="images/noun-coffee-leaf-6077492.png" alt="Business Logo" width="60" height="45"></a>
+          <h3>Botanical Bean Roastery</h3>
+        </div>
+        <nav class="footer-nav">
           <a href="index.html">Home</a>
           <a href="events.html">Events</a>
           <a href="menu.html">Menu</a>
-          <a href="citations.html">Citations</a>
           <a href="about.html">About Us</a>
+          <a href="citations.html">Citations</a>
+        </nav>
+        <nav class="footer-social">
+          <a href="https://www.facebook.com/" target="_blank"><img src="images/Facebook.png" alt="Facebook Logo" width="36" height="36"></a>
+          <a href="https://x.com/home" target="_blank"><img src="images/Twitter.png" alt="Twitter Logo" width="36" height="36"></a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/Instagram.png" alt="Instagram Logo" width="36" height="36"></a>
         </nav>
       </div>
     </footer>
-    
-    <script src="js/scripts.js"></script>
   </body>
 </html>

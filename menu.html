@@ -5,136 +5,189 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Botanical Bean Roastery Menu Page</title>
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="botanical.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Pacifico&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <!-- Header with navigation -->
-    <div class="header">
-     <header>
-      <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-      <h2>Botanical Bean Roastery</h2>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="events.html">Events</a>
-        <a href="menu.html">Menu</a>
-        <a href="citations.html">Citations</a>
-        <a href="about.html">About Us</a>
-      </nav>
-     </header>
-    </div>
-     
+    <header>
+      <div class="header">
+        <div class="header-logo">
+          <a href="index.html">
+            <!-- SVG/Image Overlay -->
+            <img src="images/noun-coffee-leaf-6077492.png" alt="Business Logo" width="59" height="45">
+            <svg><circle cx="40" cy="40" r="30" fill="coral"/></svg>
+          </a>
+          <h2>Botanical Bean Roastery</h2>
+        </div>
+        <nav class="header-nav">
+          <a href="index.html">Home</a>
+          <a href="events.html">Events</a>
+          <a href="menu.html">Menu</a>
+          <a href="about.html">About Us</a>
+          <a href="citations.html">Citations</a>
+        </nav>
+      </div>
+    </header>
+    
     <body>
-      <div class="Menu Coffee Section">
-        <h2>COffee</h2>
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
+      <!-- Specialty Drink Section -->
+      <div class="menu-coffee-section">
+        <h2>Specialty Drinks</h2>
+        <div class="menu-grid">
+          <div class="menu-row">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Earthy Espresso <hr>$14.99/lb</h3>
+                <p>Let the earth give you all the energy you need with a strong boost.</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Summer’s Crest Cappuccino <hr>$5</h3>
+                <p>Just like the peak of summer, this drink provides a sense of enlightening and uplifting energy.</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu-row">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Wildflower Americano <hr>$14.99/lb</h3>
+                <p>Walk through a meadow and smell the flowers.</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Earthly Motivation Macchiato <hr>$6</h3>
+                <p>Straight from mother earth’s cradle, gain a sense of security and potential.</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu-row">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Canopy Cloud Cappuccino <hr>$9</h3>
+                <p>Experience feelings of flying through the clouds and soaring above.</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Terra Latte <hr>$7</h3>
+                <p>Channel nature and earths immense power.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="Menu Beans Section">
+      <!-- Beans Section -->
+      <div class="menu-beans-section">
         <h2>Beans</h2>
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
+        <div class="menu-grid">
+          <div class="menu-row">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Nature’s Embrace (Medium Roast) <hr>$14.99/lb</h3>
+                <p>Inducing a feeling of comfort, this roast provides a smooth and serene warmth.</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Peppermint Bark Brew (Dark Roast) <hr>$14.99/lb</h3>
+                <p>A minty and deep flavored blend to start the day off smoothly.</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu-row">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>First Light Clarity (Light Roast) <hr>$14.99/lb</h3>
+                <p>To emerge from the morning fog, this roast lightens the spirit and mind for the day ahead.</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Honey Drizzle Roast (Light Roast) <hr>$16.99/lb</h3>
+                <p>A sweet and lighthearted way to start the day.</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu-row">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Maple Pecan Delight (Dark Roast) <hr>$13.99/lb</h3>
+                <p>Inspire feeling of the forest with this rich and nutty flavored blend.</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Mountain Peak Blend (Medium Roast) <hr>$14.99/lb</h3>
+                <p>Climb to the highest peaks, ready for the day's adventures.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div class="Menu Baked Treats Section">
+      <!-- Baked Treat Section -->
+      <div class="menu-treats-section">
         <h2>Baked Treats</h2>
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
-
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="65" height="52">
-        <p>Item Name---Item Price</p>
-        <p>Item Description</p>
+        <div class="menu-grid">
+          <div class="menu-row">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Pumpkin Crepe <hr>$9</h3>
+                <p>Manifest the essence of Autumn, made with fresh cream and topped with chocolate drizzle.</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Mini Chocolate Cake <hr>$8</h3>
+                <p>A compact and rich chocolate mini cake with fudge drizzle.</p>
+              </div>
+            </div>
+          </div>
+          <div class="menu-row">
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Swedish Cardamom Buns <hr>$7</h3>
+                <p>A sweet and buttery baked treat originating from Sweden.</p>
+              </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-info">
+                <h3>Maple Oat Scone <hr>$6</h3>
+                <p>Start the day with a rich flavor and hearty texture.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
     </body>
 
     <!-- Footer -->
     <footer>
       <div class="footer">
-        <img src="noun-coffee-leaf-6077492.png" alt="Business Logo" width="64.97" height="51.49">
-        <h3>Botanical Bean Roastery</h3>
-        <nav>
+        <div class="footer-logo">
+          <a href="index.html"><img src="images/noun-coffee-leaf-6077492.png" alt="Business Logo" width="60" height="45"></a>
+          <h3>Botanical Bean Roastery</h3>
+        </div>
+        <nav class="footer-nav">
           <a href="index.html">Home</a>
           <a href="events.html">Events</a>
           <a href="menu.html">Menu</a>
-          <a href="citations.html">Citations</a>
           <a href="about.html">About Us</a>
+          <a href="citations.html">Citations</a>
+        </nav>
+        <nav class="footer-social">
+          <a href="https://www.facebook.com/" target="_blank"><img src="images/Facebook.png" alt="Facebook Logo" width="36" height="36"></a>
+          <a href="https://x.com/home" target="_blank"><img src="images/Twitter.png" alt="Twitter Logo" width="36" height="36"></a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="images/Instagram.png" alt="Instagram Logo" width="36" height="36"></a>
         </nav>
       </div>
     </footer>
-
-    <script src="js/scripts.js"></script>
   </body>
 </html>

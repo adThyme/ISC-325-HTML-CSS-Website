@@ -1,0 +1,561 @@
+/* ========================================= */
+/*             Header/Footer/Body            */
+/* ========================================= */
+
+/* Header Class */
+.header
+{
+    background-color: #5C904D;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.header-logo 
+{
+    margin-left: 15px;
+    position: relative;
+    display: inline-block;
+    gap: 15px; 
+}
+.header-logo h2
+{
+    margin-left: 90px;
+    color: #FDFBD4;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 110%;
+}
+.header-logo img
+{
+    position: absolute;
+    top: 19%; 
+    left: 0.5%;
+    z-index: 2;
+}
+.header-logo svg
+{
+    position: absolute;
+    top: -10%;
+    left: -2%;
+    z-index: 1;
+}
+.header-nav 
+{
+    margin-right: 50px;
+}
+.header-nav a 
+{
+    color: #FDFBD4;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 575;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+
+/* Footer Class */
+.footer
+{
+    background-color: #5C904D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    gap: 200px;
+    margin-top: 6rem;
+}
+.footer-nav 
+{
+    display: flex;
+    border-radius: 5px;
+    border: 1.5px solid #FDFBD4;
+}
+.footer-nav a 
+{
+    color: #FDFBD4;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 575;
+    font-size: 18px;
+    text-decoration: none;
+    margin-inline: 15px;
+}
+.footer-logo 
+{
+    display: flex;
+    align-items: center; 
+}
+.footer-logo h3
+{
+    color: #FDFBD4;
+    font-family: "Pacifico", cursive;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 110%;
+}
+.footer-social
+{
+    display: flex;
+    gap: 15px;
+}
+
+/* Body Class */
+body
+{
+    background-color: #FDFBD4;
+    margin: 0;
+}
+
+/* ========================================= */
+/*                  Pages                    */
+/* ========================================= */
+
+/* INDEX.HTML */
+    
+    /* Our Roastery Class */
+.our-roastery
+{
+    display: flex;
+    margin: 70px;
+    gap: 40px;
+}
+.our-roastery-left
+{
+    display: flex;
+    flex-direction: column;
+}
+.our-roastery-text p
+{
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.our-roastery-right
+{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contact Information Class */
+.contact-information
+{
+    display: flex;
+    flex-direction: column;
+}
+.contact-information-row
+{   
+    display: flex;
+    flex: 1;
+}
+.contact-information-item 
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.contact-information h3
+{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.contact-information p
+{
+    font-family: "Lora", serif;
+    font-size: 16px;
+}
+
+/* Featured-Products Class */
+.featured-products h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    font-family: "Cormorant Garamond", serif;
+}
+.featured-products h2
+{
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #444444;
+    font-size: 16px;
+}
+.featured-products-grid
+{
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    margin: 70px;
+}
+.featured-products-row
+{   
+    display: flex;
+    flex: 1;
+}
+.featured-products-item 
+{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+}
+.featured-products-item img
+{
+    object-fit: cover;
+    border-radius: 15px;
+    max-width: 100%
+}
+.featured-products-item-info
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.featured-products-item-info h5 span
+{
+    background-color: #F4C73F;
+    border-radius: 3rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    order: 1
+}
+.featured-products-item-info h3
+{
+    margin-top: -10px;
+    display: flex;
+    order: 2;
+    font-family: "Lora", serif;
+}
+.featured-products-item-info h3 hr
+{
+    border: 0;
+    margin: auto 40px
+}
+.featured-products-item-info p
+{
+    margin-top: -5px;
+    display: flex;
+    order: 2;
+    font-family: "Lora", serif;
+    color: #444444;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+.featured-products a 
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    font-family: "Lora", serif;
+    color: #151515;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    margin-inline: 15px;
+}
+.featured-products a span
+{
+    background-color: #F4C73F;
+    border-radius: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/* EVENTS.HTML */
+
+.events
+{
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
+    margin: 70px;
+}
+.events-column
+{   
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.events-column-item 
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.schedule-event-title
+{
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-size: 50px;
+}
+
+/* Contact Us Class */
+.contact-us
+{
+    font-family: "Cormorant Garamond", serif;
+    background-color: #FFFEED;
+    border-radius: 30px;
+    color: #151515;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.contact-us h2
+{
+    margin-left: 1.25rem;
+}
+.contact-us-contact-form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contact-us-form-group 
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #989898;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    padding: .75rem;
+    margin-left: 1.25rem;
+    margin-right: 1.50rem;
+}
+.form-input,.form-textarea 
+{
+    margin-top: 5px;
+    padding: 0.25rem;
+    border: 1px solid #989898;
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+.contact-us-form-submit 
+{
+    width: 100%;
+    margin-top: 15px;
+    background-color: #F4C73F;
+    font-family: "Lora", serif;
+    color: #151515;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 13px 5px;
+    border-radius: 2rem;
+}
+
+/* Upcoming Events Class */
+.upcoming-events-title
+{
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-size: 50px;
+}
+.upcoming-events
+{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-right: 50px;
+    gap: 70px;
+}
+.upcoming-events-column
+{   
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 20px;
+}
+.upcoming-events-column-item
+{
+    background-color: #5C904D;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.event-date
+{
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.event-name
+{
+    display: flex;
+    text-align: center;
+    background-color: #F4C73F;
+    border-radius: 10px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-size: 30px;
+    color: #151515;
+}
+.event-details
+{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    min-height: 100px;
+}
+
+/* MENU.HTML */
+.menu-coffee-section h2, .menu-beans-section h2, .menu-treats-section h2
+{
+    display: flex;
+    margin-left: 70px;
+    font-size: 52px;
+    font-family: "Cormorant Garamond", serif;
+    
+}
+.menu h1
+{
+    display: flex;
+    justify-content: center;
+    font-size: 52px;
+    font-family: "Cormorant Garamond", serif;
+}
+.menu h2
+{
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    font-family: "Lora", serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #444444;
+    font-size: 16px;
+}
+.menu-grid
+{
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+    margin: 70px;
+}
+.menu-row
+{   
+    display: flex;
+    flex: 1;
+}
+.menu-item 
+{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #F4C73F;
+    border: 1px solid #989898;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.menu-item img
+{
+    object-fit: cover;
+    border-radius: 15px;
+    max-width: 100%
+}
+.menu-item-info
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.menu-item-info h3
+{
+    margin-top: -10px;
+    display: flex;
+    order: 2;
+    font-family: "Lora", serif;
+}
+.menu-item-info h3 hr
+{
+    border: 0;
+    margin: auto 40px
+}
+.menu-item-info p
+{
+    margin-top: -5px;
+    display: flex;
+    order: 2;
+    font-family: "Lora", serif;
+    color: #444444;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* ABOUT.HTML */
+.about-us-text-section
+{
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+}
+.about-us-our
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+.about-us-our h2
+{
+    display: flex;
+    flex-shrink: 0;
+    max-width: 100px;
+    font-family: "Cormorant Garamond", serif;
+    font-style: normal;
+    font-size: 50px;
+}
+.about-us-text
+{
+    font-family: "Lora", serif;
+    font-size: 20px;
+}
+.about-us-image-section
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+}
